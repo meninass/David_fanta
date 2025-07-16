@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>🔥 Sabor Hot 🔥</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    body {
+      margin: 0;
+      background-color: #1a1a1a;
+      color: #fff;
+      font-family: 'Segoe UI', sans-serif;
+      overflow-x: hidden;
+    }
+    header {
+      background-color: #ff007f;
+      text-align: center;
+      padding: 1rem;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 1.8rem;
+      color: white;
+      letter-spacing: 2px;
+    }
+    .banner {
+      width: 100%;
+      height: 300px;
+      object-fit: cover;
+    }
+    .profile-container {
+      text-align: center;
+      margin-top: -50px;
+    }
+    .profile-pic {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      border: 2px solid #ff007f;
+      object-fit: cover;
+      background-color: #000;
+    }
+    .description {
+      text-align: center;
+      padding: 1rem;
+      font-size: 1.1rem;
+      color: #f8c8dc;
+      max-width: 300px;
+      margin: auto;
+    }
+    .plans {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 2rem;
+      padding: 2rem 1rem;
+    }
+    .plan {
+      background: #2a2a2a;
+      padding: 1.5rem;
+      border-radius: 20px;
+      width: 90%;
+      max-width: 250px;
+      text-align: center;
+      box-shadow: 0 0 20px rgba(255, 0, 127, 0.3);
+    }
+    .plan h2 {
+      color: #ff4f9f;
+      margin-bottom: 0.5rem;
+    }
+    .plan p {
+      font-size: 1.3rem;
+    }
+    .plan button {
+      margin-top: 1rem;
+      padding: 10px 30px;
+      font-size: 1rem;
+      background-color: #ff007f;
+      border: none;
+      color: white;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background 0.3s ease;
+    }
+    .plan button:hover {
+      background-color: #e6006e;
+    }
+    footer {
+      text-align: center;
+      padding: 3rem 1rem;
+      font-size: 0.9rem;
+      color: #aaa;
+    }
+
+    .pepper {
+      position: absolute;
+      width: 100px;
+      height: 200px;
+      background-image: url('https://i.postimg.cc/zXsj4888/IMG-20250702-002538-608.jpg');
+      background-size: contain;
+      background-repeat: no-repeat;
+      opacity: 0.8;
+      animation: float 5s infinite ease-in-out;
+    }
+    @keyframes float {
+      0% { transform: translateY(0); }
+      50% { transform: translateY(-49px) rotate(59deg); }
+      100% { transform: translateY(0); }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Pimentas decorativas -->
+  <div class="pepper" style="top: 50px; left: 20px;"></div>
+  <div class="pepper" style="top: 120px; right: 30px;"></div>
+  <div class="pepper" style="bottom: 50px; left: 40px;"></div>
+  <div class="pepper" style="bottom: 120px; right: 50px;"></div>
+
+  <!-- Cabeçalho -->
+  <header>
+    <h1>🔥 Sabor Hot 🔥</h1>
+  </header>
+
+  <!-- Banner -->
+  <img src="https://i.postimg.cc/YCYrVZx7/xcg4uu.jpg" alt="Banner sensual" class="banner">
+
+  <!-- Descrição -->
+  <div class="description">
+    <p>💋 Conteúdo exclusivo para adultos! Explore fotos e vídeos sensuais com muito estilo e privacidade. +18 apenas. 💋</p>
+  </div>
+
+  <!-- Planos -->
+  <div class="plans">
+    <div class="plan">
+      <h2>Plano Mensal</h2>
+      <p>R$ 30,00</p>
+      <button onclick="window.location.href='https://exemplo.com/pagar/mensal'">Assinar</button>
+    </div>
+
+    <div class="plan">
+      <h2>Plano Trimestral</h2>
+      <p>R$ 50,00</p>
+      <button onclick="window.location.href='https://exemplo.com/pagar/trimestral'">Assinar</button>
+    </div>
+
+    <div class="plan">
+      <h2>Plano Vitalício</h2>
+      <p>R$ 70,00</p>
+      <button onclick="window.location.href='https://exemplo.com/pagar/vitalicio'">Assinar</button>
+    </div>
+  </div>
+
+  <!-- Rodapé -->
+  <footer>
+    © 2025 Sabor Hot – Conteúdo adulto exclusivo. Todos os direitos reservados.
+  </footer>
+
+</body>
+</html>
